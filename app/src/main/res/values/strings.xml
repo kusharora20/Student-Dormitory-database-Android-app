@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HW_1_214</string>
+    <string name="RoomNumber">Room number</string>
+    <string name="StudentID">Student ID</string>
+    <string name="Name">Name</string>
+    <string name="title_activity_add_student">AddStudent</string>
+    <string name="title_activity_remove_student">RemoveStudent</string>
+    <string name="title_activity_swap_student">SwapStudent</string>
+    <string name="title_activity_move_student">MoveStudent</string>
+    <string name="title_activity_select_floor">SelectFloor</string>
+    <string name="title_activity_copy_floor">CopyFloor</string>
+    <string name="title_activity_writeup_student">WriteupStudent</string>
+    <string name="title_activity_print_floor">PrintFloor</string>
+</resources>

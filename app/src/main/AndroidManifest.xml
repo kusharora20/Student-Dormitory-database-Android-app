@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tech.ceece.hw_1_214">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResidenceHallManager">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddStudent"
+            android:label="@string/title_activity_add_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RemoveStudent"
+            android:label="@string/title_activity_remove_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SwapStudent"
+            android:label="@string/title_activity_swap_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MoveStudent"
+            android:label="@string/title_activity_move_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectFloor"
+            android:label="@string/title_activity_select_floor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CopyFloor"
+            android:label="@string/title_activity_copy_floor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WriteupStudent"
+            android:label="@string/title_activity_writeup_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrintFloor"
+            android:label="@string/title_activity_print_floor"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
